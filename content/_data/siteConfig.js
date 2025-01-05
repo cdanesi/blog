@@ -9,7 +9,7 @@ module.exports = {
     // OpenGraph tags and feeds.
     // Can also be used anywhere on the site as a Nunjucks variable:
     // {{ siteConfig.site.logo }}
-    title: 'Bliss',
+    title: 'Charles Danesi',
     // Site description. Used in many places, including meta title,
     // OpenGraph tags and feeds.
     // It is also used as a fallback description if no custom description
@@ -32,7 +32,7 @@ module.exports = {
     // with {% currentYear %} expression
     // so that you don't have to update the copyright year
     // in your footer by hand ever again :)
-    startYear: 2022,
+    startYear: 2023,
     // Generator information to display in <html> tag and the site footer.
     // Absolutely optional, but it will make Zach Leatherman happy :)
     // Also, it makes you eligible to be featured on Speedlify:
@@ -68,10 +68,10 @@ module.exports = {
   author: {
     // Your name. Self-explanatory I guess?
     // And you can use it anywhere on the site as {{ siteConfig.author.name }}
-    name: 'John Doe',
+    name: 'Charles Danesi',
     // Your website URL. Used in the footer. Optional.
     // Doesn't have to be the same link as this site
-    url: 'https://eleventy-bliss.vercel.app/',
+    url: 'https://danesi.dev',
     // Your fediverse links (e.g. Mastodon). You can provide more than one.
     // For the first account in this array your site will generate
     // .well-known/webfinger file for you so that you'll be searchable
@@ -172,11 +172,11 @@ module.exports = {
   // won't be displayed at all.
   // ---------------------------------------------------------------------------
   shareButtons: [
+    'linkedin',
     'mastodon',
     'x',
-    'linkedin',
-    'facebook',
     'hackernews',
+    'facebook',
     'clipboard',
   ],
   // ---------------------------------------------------------------------------
@@ -184,9 +184,9 @@ module.exports = {
   // ---------------------------------------------------------------------------
   dateFormats: {
     // Example: 1 Oct 1970
-    readable: 'd LLL yyyy',
+    readable: 'LLL d yyyy',
     // Example: 1 October 1970
-    fullReadable: 'd LLLL yyyy',
+    fullReadable: 'LLLL d yyyy',
   },
   // ---------------------------------------------------------------------------
   // Settings for RSS feeds (Atom)
